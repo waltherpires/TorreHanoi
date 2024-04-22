@@ -159,9 +159,11 @@
         solve(size - 1, other, totower);
       }
 
-      setTimeout(() => {
-        solve(5, 0, 2);
-      }, 2000);
+      function resolver(fromtower, totower) {
+        setTimeout(() => {
+          solve(5, fromtower, totower);
+        }, 2000);
+      }
     </script>
   </body>
 </html>
